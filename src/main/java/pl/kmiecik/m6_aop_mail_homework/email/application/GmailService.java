@@ -17,6 +17,7 @@ public class GmailService implements EmailUseCase {
 
     private final JavaMailSender emailSender;
 
+
     @Autowired
     public GmailService(JavaMailSender emailSender) {
         this.emailSender = emailSender;
